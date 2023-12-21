@@ -27,7 +27,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
   }
   if (project.url) {
     links.push({
-      label: 'Website',
+      label: 'Site web',
       href: project.url
     })
   }
@@ -56,7 +56,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
         <div className='container flex flex-row-reverse items-center justify-between p-6 mx-auto'>
           <div className='flex justify-between gap-8'>
             <span
-              title='View counter for this page'
+              title='Afficher le compteur pour cette page'
               className={`duration-200 hover:font-medium flex items-center gap-1 ${
                 isIntersecting
                   ? ' text-zinc-400 hover:text-zinc-100'

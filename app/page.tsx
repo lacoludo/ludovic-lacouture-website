@@ -3,8 +3,14 @@ import React from 'react'
 import Particles from './components/particles'
 
 const navigation = [
-  { name: 'Projets', href: '/projects' },
-  { name: 'Contact', href: '/contact' }
+  {
+    name: 'Projets',
+    href: '/projects'
+  },
+  {
+    name: 'Contact',
+    href: '/contact'
+  }
 ]
 
 export default function Home() {
@@ -28,7 +34,7 @@ export default function Home() {
         className='absolute inset-0 -z-10 animate-fade-in'
         quantity={100}
       />
-      <h1 className='z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display font-bold sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text '>
+      <h1 className='z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display font-extrabold sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text '>
         Ludovic Lacouture
       </h1>
 

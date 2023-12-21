@@ -1,6 +1,5 @@
-import '../global.css'
+import './globals.css'
 import { Inter } from 'next/font/google'
-import LocalFont from 'next/font/local'
 import type { Metadata } from 'next'
 import { Analytics } from './components/analytics'
 
@@ -40,6 +39,7 @@ export const metadata: Metadata = {
     shortcut: '/favicon.png'
   }
 }
+
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter'
